@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F2F5F9;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fondo{
+    background-image: url("assets/img/hero-image-business-card.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 10px;
+}
+
+.tarjeta-container{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.tarjeta-container article{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+    color: #111729;
+}
+
+.tarjeta-container article h1{
+    font-size: 2.0em;
+}
+
+.tarjeta-container article p{
+    color: #677489;
+}
+
+.info-container{
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+}
+
+.info-container figure img{
+    width: 40px;
+    border-radius: 100px;
+}
+
+.info-container__text h3{
+    color: #111729;
+}
+
+.info-container__text p{
+    color: #677489;
+}
